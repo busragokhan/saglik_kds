@@ -1,0 +1,61 @@
+html,body{
+    background-size: cover;
+    background: linear-gradient(#141e30, #517eb2);
+    display:grid;
+    height: 100%;
+    place-items: center;
+    overflow:visible;
+}
+
+#menu{
+    background: #ffffff;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+}
+#menu .items li{
+    list-style: none;
+    padding: 18px 0;
+    margin-top: 10%;
+} 
+#menu .items li a{
+    text-decoration: none;
+    color: rgb(5, 14, 63);
+    font-weight: 300px;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    transition: 0.3 ease;
+}
+
+.items{
+    border: #0f1842;
+    padding: 50px;
+    margin-left: 10px;
+    margin-top: 110px;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+ }
+
+.logo{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+ }
+
+ table{
+    position: relative;
+    margin-top: -300px;
+    margin-left: 150px;
+    width: 800px;
+    height: 50px;
+    font-family:'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 24px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px;
+    border-style:inset;
+    border-color:rgb(13, 99, 139);
+    border-radius: 5px;
+    color: #0f1842;
+  }
